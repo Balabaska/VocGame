@@ -1,0 +1,157 @@
+#header{
+	height: 36px;
+}
+#gray{
+	background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+	height: 36px;
+}
+body{
+	background: #e1f4f7;
+	font-family:Arial;
+}
+#poloca{
+	width:100%;
+}
+.tabs_box {
+	min-width: 870px;
+	min-height: 600px;
+	margin:35px 465px auto 477px;
+	/*position: absolute;*/
+	top: 250px;
+	background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+	border-top: 2px solid #ccc;
+	padding: 20px 30px 50px 65px;
+}
+#tab2, #tab3,#tab4 {
+	display: none;
+}
+.tab {
+}
+.tabs_menu {
+	width:100%;
+	display: table-row;
+	margin:0;
+	top: 250px;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+	border-radius: 5px;
+}
+.tabs_menu li {
+	display: table-cell;
+	width: auto;
+}
+.tabs_menu li a {
+	display: table-cell;
+	width: 240px;
+	text-align: center;
+	text-decoration: none;
+	background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+	color: #d8d8d8;
+	
+	border-left: 2px solid #ccc;
+	padding: 10px 0;
+}
+.tabs_menu li:first-child a {
+	border-left: 0;
+}
+.tabs_menu .active {
+	background: linear-gradient(rgb(87, 201, 219), rgb(64, 167, 183)) rgb(87, 201, 219);
+	color: #fff;
+}
+.vouch {
+	margin:10px 30px 10px 0;
+	border: 2px solid #ccc;
+	background: #e1f4f7;
+	display: inline-block;
+	border: 0;
+	border-color:transparent;
+	font-size: 15px;
+	font-weight: bold;
+}
+.vouch li{
+	padding: 10px 160px 5px 15px;
+	
+}
+.vouch li:nth-child(odd){
+	background:#57c9db;
+	margin: 0;
+}
+/*кнопки*/
+.button28 {
+	margin: 0 30px 10px 0 !important;
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 1em;
+  margin-left:0;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+	border-color:transparent;
+	width: 250px;
+}
+.button28:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+.button28:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+#login{
+	margin:0 475px auto 475px;
+	padding: 0 0 0 0;
+	width: 800px;
+}
+.auto{
+  position: relative;
+  display: inline-block;
+  font-size: 60%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 1em;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+	border-color:transparent;
+	padding: 6px 30px 3px 30px !important;
+	margin-left: 20px;
+}
+
+.image{
+	position: relative;
+}
+h1 {
+	position	: absolute;
+	top: -30px;
+	margin: 0 300px 0 480px;
+	width		: 300px;
+	color: white;
+	font-size: 20px;
+	font-family:Arial;
+	font-weight:bold;
+}
+#main{
+	width: 100%;
+	height: 100%;
+}
